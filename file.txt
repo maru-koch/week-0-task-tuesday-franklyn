@@ -1,0 +1,8 @@
+- a prime number is one that can be divided by one and itself
+- the is_prime function in the prime_number.py modules estimates a prime number by
+    - adding the number in a list containing one --> prime
+    - them goes through a range of number (1, num + 1)
+    - any number that can divide the given number without remainder is a factor, then is added in the primeFactor list
+    - the prime list is compared with the primeFactor list
+    - if they are the same, then the number is a prime number
+    - else, it is not.
