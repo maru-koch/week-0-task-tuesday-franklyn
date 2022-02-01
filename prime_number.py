@@ -24,8 +24,15 @@ def is_prime(num):
     else:
         return "{} is invalid. Please enter a positive integer greater than 1".format(num)
 
+<<<<<<< HEAD
 num = int(input("\n\tEnter a number: "))
 
 
 print(is_prime(num))
+=======
+num = int(input("Enter a number: "))
+
+for x in num:
+    print(is_prime(x))
+>>>>>>> 16c91fd88f260f64be427bae78ef97ee5b16d29a
 
